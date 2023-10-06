@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
-const ProductDetails = () => {
-  return <div>Product Details Page</div>;
+const ProductDetails = ({children}) => {
+
+  return "hi";
 };
 
 export default ProductDetails;
